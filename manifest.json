@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Internet Monitor by NRZN",
+    "version": "1.0",
+    "description": "Keeps cont of how many time internet was lost in a certain time period and performs periodic speed tests.",
+    "permissions": [
+      "alarms",
+      "storage",
+      "background",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
